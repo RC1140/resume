@@ -1,0 +1,126 @@
+%!TEX TS-program = xelatex
+\documentclass[]{jameel-cv}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{Jameel}{Haffejee}
+       {Full stack Developer}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    \href{mailto:jameel@haffejee.co.za}{jameel@haffejee.co.za}
+    \href{http://runawaycoder.co.za}{http://runawaycoder.co.za}
+    \href{http://github.com/rc1140}{http://github.com/rc1140}
+  \section{languages}
+    english
+  \section{programming}
+    {\color{red} $\varheartsuit$} JavaScript
+    (node.js),go
+    Python, C, Clojure, C\#
+    ASP.Net, ExtJs
+    CSS \& HTML
+\end{aside}
+
+\section{interests}
+
+Data mining, development and deployment at scale, reverse engineering, development focused challenges and competitions.
+
+\section{experience}
+
+\begin{entrylist}
+   \entry
+    {2013 - now }
+    {Chase Software}
+    {Systems Developer}
+    {\emph{Development of an in house application. Managing and mentoring team members. System deployment and infrastructure maintenance}}
+   \entry
+    {2011 - 20013}
+    {Thinkst}
+    {Researcher}
+    {\emph{Research and proof of concept development. Full stack application design, development,deployment and monitoring.}}
+  \entry
+    {2009 - 20011}
+    {Chase Software}
+    {Systems Developer}
+    {\emph{Maintenance and development on an in house application of advertising agencies.}}
+  \entry
+    {2007 - 2009}
+    {Neotel}
+    {Systems Developer}
+    {\emph{Development of OPIX, an in house application used for reporting and assisting in the rollout of the neotel fiber network.}}
+  \entry
+    {2006 - 2007}
+    {Vas-X}
+    {Systems Developer}
+    {\emph{Development of internal application for managing airtime voucher sales and distribution.}}
+\end{entrylist}
+
+\section{applications}
+
+\begin{entrylist}
+   \entry
+    {2013}
+    {Longtail}
+    {\href{https://bitbucket.org/rc1140/longtail}{https://bitbucket.org/rc1140/longtail}}
+    {A server side application to monitor IRC channels and respond to emails with a mail digest since the users last request.}
+  \entry
+    {2012}
+    {Signal Noise}
+    {\href{http://signalnoi.se}{signalnoi.se}}
+    {A web application for news agencies that monitored social media networks to determine the most relevant stories for the news agency.}
+  \entry
+    {2011}
+    {Con Collector}
+    {\href{http://cc.thinkst.com}{cc.thinkst.com}}
+    {A website for collecting stats and other information regarding security conferences.}
+  \entry
+    {2011}
+    {Cr-Gpg}
+    {\href{https://github.com/RC1140/cr-gpg}{https://github.com/RC1140/cr-gpg}}
+    {A chrome extension to bring gpg encrytion to gmail.}
+\end{entrylist}
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {2012 - 2014}
+    {Masters Degree, Computer and Information Systems Security}
+    {Rhodes University}
+    {Completed research in the area of antivirus and virus analysis}
+  \entry
+    {2006}
+    {Information Systems Engineering}
+    {CTI, Randburg}
+    {Completed in record time, used the extra time to study extra course material while job hunting}
+\end{entrylist}
+
+\newpage
+
+\section{publications}
+\nocite{*}
+\printbibliography[heading=none]
+
+\section{talks}
+\begin{entrylist}
+   \entry
+    {20014}
+    {\href{https://speakerdeck.com/rc1140/testing-antivirus-engines-to-determine-their-effectiveness-as-a-security-layer}{Testing antivirus engines to determine their effectiveness as a security layer}}
+    {ISSA}
+    {}
+  \entry
+    {20011}
+    {\href{https://speakerdeck.com/rc1140/mac-os-sandboxing}{OS X Sandboxing}}
+    {Zacon}
+    {}
+  \entry
+    {2010}
+    {\href{https://speakerdeck.com/rc1140/powershell-what-every-haxor-needs-to-know}{Powershell.. what every hax0r needs to know}}
+    {Zacon}
+    {}
+\end{entrylist}
+
+\end{document}
